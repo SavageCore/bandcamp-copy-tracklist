@@ -6,7 +6,7 @@
 // @author       SavageCore
 // @match        https://*.bandcamp.com/album/*
 // @grant        none
-// @downloadURL https://github.com/SavageCore/bandcamp-copy-tracklist/raw/master/src/bandcamp-copy-tracklist.user.js
+// @downloadURL  https://github.com/SavageCore/bandcamp-copy-tracklist/raw/master/src/bandcamp-copy-tracklist.user.js
 // ==/UserScript==
 
 /*	global document	*/
