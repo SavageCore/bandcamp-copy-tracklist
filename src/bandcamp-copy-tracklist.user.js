@@ -4,6 +4,7 @@
 // @version      0.0.1
 // @description  Userscript to copy bandcamp tracklist to clipboard
 // @author       You
+// @author       SavageCore
 // @match        https://*.bandcamp.com/album/*
 // @grant        none
 // @downloadURL https://github.com/SavageCore/bandcamp-copy-tracklist/raw/master/src/bandcamp-copy-tracklist.user.js
