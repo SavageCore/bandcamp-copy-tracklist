@@ -5,12 +5,12 @@
 // @description  Userscript to copy bandcamp tracklist to clipboard
 // @author       SavageCore
 // @match        https://*.bandcamp.com/album/*
-// @grant        none
+// @grant        GM_setClipboard
 // @downloadURL  https://github.com/SavageCore/bandcamp-copy-tracklist/raw/master/src/bandcamp-copy-tracklist.user.js
 // ==/UserScript==
 
 /*	global document	*/
-/*	global window	*/
+/* global GM_setClipboard */
 
 (function () {
 	'use strict';
@@ -40,6 +40,11 @@
 	};
 
 	link.addEventListener('click', function () {
-		window.prompt('Copy to clipboard: Ctrl+C, Enter', lines); // eslint-disable-line no-alert
+		GM_setClipboard(lines, 'text'); // eslint-disable-line new-cap
+		var originalText = link.innerText;
+		link.innerText = 'Copied!';
+		setTimeout(function () {
+			link.innerText = originalText;
+		}, 2000);
 	}, false);
 })();
