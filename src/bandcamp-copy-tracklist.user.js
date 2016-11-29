@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bandcamp copy tracklist to clipboard
 // @namespace    https://savagecore.eu
-// @version      0.0.4
+// @version      0.0.5
 // @description  Userscript to copy bandcamp tracklist to clipboard
 // @author       SavageCore
 // @include        https://*.bandcamp.com/*
