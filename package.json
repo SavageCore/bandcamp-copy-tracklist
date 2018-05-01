@@ -3,6 +3,6 @@
     "test": "xo"
   },
   "devDependencies": {
-    "xo": "^0.17.0"
+    "xo": "^0.20.3"
   }
 }
